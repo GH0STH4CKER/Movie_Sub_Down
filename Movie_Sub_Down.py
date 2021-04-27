@@ -57,7 +57,7 @@ for x in range(len(html)) :
             i += 1
             links.append(hreflink[0]['href'])
         
-print("Displying",i,"Results\n\n")
+print("\nDisplaying",i,"Results\n\n")
 for y in range(len(links)) :
     link = str(links[y]).replace('https://www.baiscopelk.com/','')
     link = link.replace('/',' ')
