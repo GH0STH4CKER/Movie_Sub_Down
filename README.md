@@ -6,10 +6,7 @@ Program to download Sinhala subtitles for movies
 
 <h2> Commands </h2>
 
-```git clone https://github.com/GH0STH4CKER/Movie_Sub_Down```
-
-```cd Movie_Sub_Down```
-
-```pip install bs4 requests colorama```
-
-```python3 Movie_Sub_Down.py```
+```git clone https://github.com/GH0STH4CKER/Movie_Sub_Down``` <br>
+```cd Movie_Sub_Down``` <br>
+```pip install bs4 requests colorama``` <br>
+```python3 Movie_Sub_Down.py``` <br>
