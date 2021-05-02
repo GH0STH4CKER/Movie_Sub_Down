@@ -24,17 +24,26 @@ tag = """
 print(lG+banner,lY+tag)
 
 print(lG+"")
-choice = int(input("Website you want to download subtitles ? \n\n[1] Baiscopelk.com\n[2] Zoom.lk \n\nChoose >> "))
 
-if choice == 1 :
-    clear()
-    import Movie_Sub_Down_Baiscope
-elif choice == 2 :
-    clear()
-    import Movie_Sub_Down_Zoom
+
+lang = input("What Language you want ? \n\n[S] Sinhala\n[E] English\n")
+
+if lang == "s" or lang == "S" :
+    choice = int(input("Website you want to download subtitles ? \n\n[1] Baiscopelk.com\n[2] Zoom.lk \n\nChoose >> \n"))
+    if choice == 1 :
+        clear()
+        import Movie_Sub_Down_Baiscope
+    elif choice == 2 :
+        clear()
+        import Movie_Sub_Down_Zoom
+    else :
+        print(lR+"Wrong choice !")
+
+elif lang == "e" or lang == "E" :
+	clear()
+	import Movie_Sub_Down_Yts
 else :
-    print(lR+"Wrong choice !")
-
+	print(lR+"Wrong Language !")
 
 
 
