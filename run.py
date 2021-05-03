@@ -32,16 +32,16 @@ if lang == "s" or lang == "S" :
     choice = int(input("Website you want to download subtitles ? \n\n[1] Baiscopelk.com\n[2] Zoom.lk \n\nChoose >> \n"))
     if choice == 1 :
         clear()
-        import Movie_Sub_Down_Baiscope
+        import bin.Movie_Sub_Down_Baiscope
     elif choice == 2 :
         clear()
-        import Movie_Sub_Down_Zoom
+        import bin.Movie_Sub_Down_Zoom
     else :
         print(lR+"Wrong choice !")
 
 elif lang == "e" or lang == "E" :
 	clear()
-	import Movie_Sub_Down_Yts
+	import bin.Movie_Sub_Down_Yts
 else :
 	print(lR+"Wrong Language !")
 
